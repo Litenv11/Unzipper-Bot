@@ -4,13 +4,13 @@ import os
 
 class Config(object):
     # Mandotory
-    APP_ID = int(os.environ.get("APP_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    LOGS_CHANNEL = int(os.environ.get("LOGS_CHANNEL"))
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
-    MONGODB_URL = os.environ.get("MONGODB_URL")
-    GOFILE_TOKEN = os.environ.get("GOFILE_TOKEN")
+    APP_ID = int(os.environ.get("20315396"))
+    API_HASH = os.environ.get("52edde742449c75895948e0a25abe7db")
+    BOT_TOKEN = os.environ.get("7429678025:AAF1Mh8xgrfOe5YMf4D__igQHsVzMph3__M")
+    LOGS_CHANNEL = int(os.environ.get("-1002122659804"))
+    BOT_OWNER = int(os.environ.get("5196029054"))
+    MONGODB_URL = os.environ.get("mongodb+srv://Liten:OoIj9FZ6J5ca7K31@cluster0.hcxotkc.mongodb.net/?retryWrites=true&w=majority")
+    GOFILE_TOKEN = os.environ.get("pSFMwETrfniRc0drvX7AaUxjpWBzeOMO")
     # Optional
     MAX_DOWNLOAD_SIZE = int(os.environ.get("MAX_DOWNLOAD_SIZE")) if os.environ.get("MAX_DOWNLOAD_SIZE") else 10737418240
     # Constents
